@@ -16,7 +16,7 @@ namespace Matematica
             Console.WriteLine("Inserisci il secondo numero");
             int n2 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Che operazione vuoi fare? (A/S/M/D/P/Max)");
+            Console.WriteLine("Quale operazione vuoi fare? (A/S/M/D/P/Max)");
             string risposta = Console.ReadLine();
             double risultato=0;
             switch (risposta)
