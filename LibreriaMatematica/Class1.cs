@@ -59,6 +59,10 @@ namespace LibreriaMatematica
             return Mx;
 
         }
-
+        public static bool Uguali(int a, int b, int c)
+        {
+            bool r = a == b && b == c;
+            return r;
+        }
     }
 }
